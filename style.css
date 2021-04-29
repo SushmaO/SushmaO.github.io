@@ -1,0 +1,122 @@
+*{
+    Box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+}
+
+#main{
+    width :100%;
+    height: 100vh;
+    position: relative; 
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+
+.logo img{
+    height: 120px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+}
+
+.menu li a{
+    height: 40px;
+    line-height: 45px;
+    margin: 5px;
+    padding: 0px 15px;
+    display: flex;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: gray;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background:turquoise;
+    color: white;
+    border:1px black;
+    border-radius: 25px;
+}
+.Sign{
+    color: #39bfbd;
+    font-weight: 500;
+    font-size: 0.9em;
+    border-bottom: 2px solid #39bfbd;
+}
+
+.image{
+    padding: 50px 50px;
+    margin-top: 6em;
+    width: 500px;
+    height: 500px;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.main-text{
+	margin-right: 60px;
+}
+
+.main-text h2{
+	font-family: HelvLight;
+    color: black;
+}
+
+.main-text p{
+	font-family: Calibri ;
+}
+
+.main-text ul{
+    color:rgb(80, 79, 79);
+}
+
+.resume-btn{
+	font-family: Century Gothic;
+    font-size: 18px;
+    padding-top: 10px;
+    width: 110px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #1db096;
+    border-radius: 25px;
+    box-shadow: 5px 20px 30px rgba(24, 139, 119, 0.2);
+
+}
+
+.resume-btn:hover{
+    background-color:  #23cdaf; 
+    transition: all-ease 0.2s; 
+}
